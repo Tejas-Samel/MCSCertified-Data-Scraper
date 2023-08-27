@@ -2,8 +2,7 @@
 
 This project is designed to scrape data from mcscertified.com using the Beautiful Soup and Requests libraries in Python. The scraped data is then uploaded to a Google Sheets spreadsheet using the Google Sheets API.
 
-View Google Sheet
-```https://docs.google.com/spreadsheets/d/1FUWLvNpgekxCzaI-1uwKPl_R3sT3vx-rzT4TxnWy080/edit?usp=sharing```
+[View Google Sheet](https://docs.google.com/spreadsheets/d/1FUWLvNpgekxCzaI-1uwKPl_R3sT3vx-rzT4TxnWy080/edit?usp=sharing)
 
 
 ## Table of Contents
