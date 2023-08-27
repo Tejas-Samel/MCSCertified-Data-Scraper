@@ -66,6 +66,7 @@ class googleSheetsHandler:
             print(err)
 
     def insertData(self, data):
+        """Takes input list and inserts into google sheet"""
         try:
             print("Starting to enter data")
             result = self.service.values().update(spreadsheetId=self.SPREADSHEET_ID,
@@ -99,6 +100,7 @@ class googleSheetsHandler:
             print(exceptionError.__str__())
 
     def readData(self):
+        """Reads data from spreadsheet"""
         try:
             print("##########################################")
             print("ENTER SHEET NAME \n")
@@ -145,6 +147,7 @@ class googleSheetsHandler:
             print(e.__str__())
 
     def createSheet(self):
+        """Creates a new sheet with new spreadsheet id and title"""
         print("##########################################")
         print("ENTER SHEET NAME\n")
         sheet_name = str(input())
@@ -173,6 +176,7 @@ class googleSheetsHandler:
         # print(spreadsheet)
 
     def removeAllDataFromSheet(self):
+        """Clears all data that is present in google sheet"""
         try:
             self.service.values().clear(spreadsheetId=self.SPREADSHEET_ID,
                                         range=self.SHEET_NAME).execute()
