@@ -2,6 +2,10 @@
 
 This project is designed to scrape data from mcscertified.com using the Beautiful Soup and Requests libraries in Python. The scraped data is then uploaded to a Google Sheets spreadsheet using the Google Sheets API.
 
+View Google Sheet
+```https://docs.google.com/spreadsheets/d/1FUWLvNpgekxCzaI-1uwKPl_R3sT3vx-rzT4TxnWy080/edit?usp=sharing```
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -60,6 +64,9 @@ Before running the script, you need to configure the following parameters in the
 
 - `SPREADSHEET_ID`: The ID of the Google Sheets spreadsheet where you want to upload the data.
 - `SHEET_NAME`: The name of the sheet within the spreadsheet where the data should be inserted.
+
+<img src="img01.jpg"/>
+<img src="img02.jpg"/>
 
 
 ## Contributing
